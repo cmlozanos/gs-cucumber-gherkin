@@ -18,6 +18,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	testCompile 'io.cucumber:cucumber-java8:6.2.2'
+	testCompile 'io.cucumber:cucumber-junit:6.2.2'
 }
 
 test {
